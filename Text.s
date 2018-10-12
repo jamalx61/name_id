@@ -5,16 +5,17 @@
 
 
 	.data	
-
-	.text
 	# Load some registers
-	li	$t0, 0x2      #Load Immediate
-	li	$t1, 0x3
-	li	$t2, 0x4
-	li	$t3, 0x56
-	li	$t4, 0x90
+	symbol:		.asciiz	"@"
+	id:    		.word	02829293
+	name:  		.asciiz	"Kamara, Abdul"
+	.text
+	
+	.globl		main
+	main:
+		
+		la	$
+	
 
 	# Exit the Program
-
-#made some changes.
 	
