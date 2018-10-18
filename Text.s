@@ -21,4 +21,9 @@
 		syscall     
 		addi       $a0, $a0, -10	# A
 		syscall   
-		
+		addi	  $a0, $a0,  12		# M                 
+		syscall     
+		addi	  $a0,$a0,  -12		# A
+		syscall     
+		addi 	  $a0, $a0, 17		# R
+		syscall
