@@ -59,8 +59,11 @@
 		syscall 
 		addi	  $a0, $a0, 2	#space //D
 		syscall 
-		
-		
-
-		
-    
+		addi	  $a0, $a0, 17	#space //U
+		syscall 
+		addi	  $a0, $a0, -9	#space //L
+		syscall
+		addi $a0, $a0, -66      # new line (10)
+	        syscall
+ 	 	li $v0, 10		#exits the whole program
+          	syscall
