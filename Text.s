@@ -4,7 +4,7 @@
 
 
 
-	.data	                               
+  	.data	                               
 	.text
 	
 	.globl		main
@@ -49,7 +49,7 @@
 		syscall
 		addi	  $a0, $a0, -17		#A
 		syscall     
-		addi	  $a0, $a0, -21		#,// 44
+		addi	  $a0, $a0, -21		#,// 44 
 		syscall     
 		addi	  $a0, $a0, -12 	#space //42
 		syscall 
